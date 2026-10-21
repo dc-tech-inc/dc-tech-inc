@@ -22,7 +22,7 @@ Product company and IT consultancy building smart systems, AI tools and cybersec
 ## Selected work (open source)
 
 - [ts-fullstack-starter](https://github.com/dc-tech-inc/ts-fullstack-starter): pnpm monorepo with React + Express 5 + PostgreSQL/Drizzle, auth, validation, OpenAPI and a CI-tested API.
-- [voice-agent-reference](https://github.com/dc-tech-inc/voice-agent-reference): reference real-time voice agent service with a provider interface, two adapters, a failover state machine and typed tool calls. Reference implementation.
+- [voice-agent-reference](https://github.com/dc-tech-inc/voice-agent-reference): reference real-time voice agent service with a provider interface, two adapters, a failover state machine and typed tool calls. Reference implementation; the adapters are untested against live APIs.
 - [mcp-tool-server](https://github.com/dc-tech-inc/mcp-tool-server): read-only "repo health" Model Context Protocol server with typed tools, tested through an MCP client.
 
 ## Commercial products (closed source)
