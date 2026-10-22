@@ -34,7 +34,7 @@ Each repository is original, runnable and documented. More are on the way; this 
 
 ## Stack
 
-**React · TypeScript · Node.js · PostgreSQL · Docker**
+React · TypeScript · Node.js · PostgreSQL · Docker
 
 Also: Express, Vite, Drizzle ORM, pnpm, vitest, GitHub Actions.
 
