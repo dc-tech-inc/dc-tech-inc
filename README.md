@@ -1,6 +1,6 @@
-# DC TECH INC
+# DCtech.
 
-Software, AI and security engineering studio · Charlotte, NC · https://dctech.live
+DCtech. is a software, AI and security engineering studio · Charlotte, NC · https://dctech.live
 
 Founded and led by **Danilo Cortes**, principal engineer.
 
