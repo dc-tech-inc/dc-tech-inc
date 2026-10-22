@@ -21,6 +21,9 @@ Each repository is original, runnable and documented. More are on the way; this 
 | AI voice agents | [voice-agent-reference](https://github.com/dc-tech-inc/voice-agent-reference) | Real-time voice agent service with a provider interface, two adapters, a failover state machine and typed tool calls. The adapters are untested against live APIs. |
 | MCP and tool use | [mcp-tool-server](https://github.com/dc-tech-inc/mcp-tool-server) | Read-only "repo health" MCP server with typed tools, tested through an MCP client. |
 | Releases | [roomly-releases](https://github.com/dc-tech-inc/roomly-releases) | Public downloads for the Roomly desktop app. |
+| Inventory back office | [warehouse-inventory-platform](https://github.com/dc-tech-inc/warehouse-inventory-platform) | React + Express 5 + PostgreSQL inventory, transfers, purchasing with approval and rewards, with admin/manager/clerk roles. 133 tests and 6 Playwright e2e in CI, Docker Compose. Synthetic data only; no deployment, email, SSO or MFA. |
+| Infrastructure as code | [cloud-infra-iac](https://github.com/dc-tech-inc/cloud-infra-iac) | Terraform and Ansible reference: an OCI stack plus small AWS, Azure, GCP and Cloudflare modules, checked in CI (fmt, validate, tflint, checkov, Molecule). Validate-only; nothing applied to a real cloud. |
+| LLM workflows and evals | [ai-agent-workflows](https://github.com/dc-tech-inc/ai-agent-workflows) | Versioned prompts, offline evals that gate CI, and a RAG support bot over fictional docs, in strict TypeScript. Runs offline by default; the Anthropic, OpenAI and Gemini adapters are not tested against live APIs. |
 
 ## Stack
 
