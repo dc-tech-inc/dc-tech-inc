@@ -1,29 +1,32 @@
 # DC TECH INC
 
-Product company and IT consultancy building smart systems, AI tools and cybersecurity services.
+Software, AI and security engineering studio · Charlotte, NC · https://dctech.live
 
-## What we build
+Founded and led by **Danilo Cortes**, principal engineer.
 
-- **Custom software:** full-stack TypeScript applications, from database to UI.
-- **AI agents and LLM integration:** voice agents, Model Context Protocol (MCP) tools.
-- **Cybersecurity:** secure-by-default engineering and security reviews.
+## What we do
+
+- **Custom software:** full-stack web applications, from database to UI.
+- **AI agents and automation:** voice agents, LLM integration, Model Context Protocol (MCP) tools.
+- **Cloud and DevOps:** containerized services, CI/CD pipelines, infrastructure that is easy to rebuild.
+- **Security operations:** secure-by-default engineering, with a defensive focus.
+
+## Engineering portfolio
+
+Each repository is original, runnable and documented. More are on the way; this table lists only what is public today.
+
+| Capability | Repository | What it shows |
+|---|---|---|
+| Full-stack web | [ts-fullstack-starter](https://github.com/dc-tech-inc/ts-fullstack-starter) | pnpm monorepo: React + Express 5 + PostgreSQL/Drizzle, auth, validation, OpenAPI, CI-tested API. Also a GitHub template. |
+| AI voice agents | [voice-agent-reference](https://github.com/dc-tech-inc/voice-agent-reference) | Real-time voice agent service with a provider interface, two adapters, a failover state machine and typed tool calls. The adapters are untested against live APIs. |
+| MCP and tool use | [mcp-tool-server](https://github.com/dc-tech-inc/mcp-tool-server) | Read-only "repo health" MCP server with typed tools, tested through an MCP client. |
+| Releases | [roomly-releases](https://github.com/dc-tech-inc/roomly-releases) | Public downloads for the Roomly desktop app. |
 
 ## Stack
 
-- TypeScript
-- React 18 + Vite
-- Node 24 + Express 5
-- PostgreSQL + Drizzle ORM
-- pnpm monorepos
-- vitest
-- GitHub Actions
-- Docker / Dokploy on Oracle Cloud (ARM)
+**React · TypeScript · Node.js · PostgreSQL · Docker**
 
-## Selected work (open source)
-
-- [ts-fullstack-starter](https://github.com/dc-tech-inc/ts-fullstack-starter): pnpm monorepo with React + Express 5 + PostgreSQL/Drizzle, auth, validation, OpenAPI and a CI-tested API.
-- [voice-agent-reference](https://github.com/dc-tech-inc/voice-agent-reference): reference real-time voice agent service with a provider interface, two adapters, a failover state machine and typed tool calls. Reference implementation; the adapters are untested against live APIs.
-- [mcp-tool-server](https://github.com/dc-tech-inc/mcp-tool-server): read-only "repo health" Model Context Protocol server with typed tools, tested through an MCP client.
+Also: Express, Vite, Drizzle ORM, pnpm, vitest, GitHub Actions.
 
 ## Commercial products (closed source)
 
@@ -31,8 +34,6 @@ Product company and IT consultancy building smart systems, AI tools and cybersec
 - **C.L.A.R.A.:** AI voice receptionist for clinics.
 - **Roomly:** real-time 3D social platform for the browser ([roomly.life/app](https://roomly.life/app)), desktop and Android. Downloads: [roomly-releases](https://github.com/dc-tech-inc/roomly-releases).
 
-More at https://dctech.live.
-
 ## Contact
 
-https://dctech.live · https://dctech.live · Charlotte, NC
+https://dctech.live
