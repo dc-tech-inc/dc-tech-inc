@@ -25,6 +25,7 @@ Each repository is original, runnable and documented. More are on the way; this 
 | Infrastructure as code | [cloud-infra-iac](https://github.com/dc-tech-inc/cloud-infra-iac) | Terraform and Ansible reference: an OCI stack plus small AWS, Azure, GCP and Cloudflare modules, checked in CI (fmt, validate, tflint, checkov, Molecule). Validate-only; nothing applied to a real cloud. |
 | LLM workflows and evals | [ai-agent-workflows](https://github.com/dc-tech-inc/ai-agent-workflows) | Versioned prompts, offline evals that gate CI, and a RAG support bot over fictional docs, in strict TypeScript. Runs offline by default; the Anthropic, OpenAI and Gemini adapters are not tested against live APIs. |
 | Lead automation | [lead-flow-automation](https://github.com/dc-tech-inc/lead-flow-automation) | Lead intake service with HMAC-signed webhooks, three versioned n8n workflows and an ethical Python scraper for practice sites. CRM, enrichment and email are simulated; n8n is validated on import only, not executed. |
+| Security operations | [secops-playbooks](https://github.com/dc-tech-inc/secops-playbooks) | Defensive runbooks, GitHub Advanced Security config, Azure WAF/Defender as code, Sigma/YARA rules tested on synthetic data, and PCAP notebooks on public samples. 104 pytest tests; nothing deployed to Azure. |
 
 ## Stack
 
